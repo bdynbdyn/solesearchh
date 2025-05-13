@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solesearch It</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topnav">   
+ <a href="index.html">Home</a>
+<a class="active" <a href="browse.html">Browse</a>
+  <a class="active" <a href="upload.html">Upload</a>
+  <a href="about.html">About</a>
+</div>
+
+
+
+<div class="upload-container">
+    <h2>UPLOAD SHOES</h2>
+    <form class="upload-form">
+        <div class="file-upload">
+            <input type="file" id="photo-upload" accept="image/*" hidden>
+            <label for="photo-upload" class="upload-label">
+                <span>CHOOOSE A PHOTO</span>
+            </label>
+        </div>
+        <div id="preview-container" class="preview-hidden">
+            <img id="preview-image" src="#" alt="Preview">
+        </div>
+        <button type="submit" class="upload-button">Upload</button>
+    </form>
+</div>
+<script src="upload.js"></script>
+</body>
